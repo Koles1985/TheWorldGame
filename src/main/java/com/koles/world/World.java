@@ -1,5 +1,6 @@
 package com.koles.world;
 
+import com.koles.view.WorldView;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
@@ -21,6 +22,8 @@ public class World {
      * передаем значение - true
      */
     private boolean isDestroyWorld = false;
+
+    private WorldView view;
 
 
 

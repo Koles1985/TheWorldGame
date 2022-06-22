@@ -12,5 +12,6 @@ public class WorldView {
      */
     public void drawWorld(int width, int height) {
         System.out.println("World view is started");
+
     }
 }
